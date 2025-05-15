@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE NUMBER</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>GUESS THE NUMBER</h1>
+        <input type="text" id="checknum">
+        <button style="font-size: larger;" onclick="check()">Check</button>
+        <p style="font-weight: bolder; font-size: large;" id="res">You are Wrong/Right</p>
+        <p id="score">SCORE: 10</p>
+    </center>
+    <script>
+        var g = document.getElementById("checknum");
+        var r = document.getElementById("res");
+        var random = Math.floor(Math.random() * 10) + 1;
+        var score = document.getElementById("score");
+        var score1 = 10;
+
+        function check() {
+            var enter = g.value
+            if (random === enter) {
+                r.textContent = "Right";
+                alert("YOU WON...");
+            } else {
+                score1 = score1 - 1;
+                score.textContent = "SCORE: " + score1;
+                r.textContent = "Wrong";
+            }
+        }
+    </script>
+</body>
+</html>
