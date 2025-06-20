@@ -1,11 +1,36 @@
 # guess-the-number
-🚀 Guess the Number – Can You Crack the Code? 🎯
-Think you’ve got sharp intuition? Try your luck with my Guess the Number game! 🔢💡 A simple yet addictive challenge where you attempt to guess the mystery number within a given range. Built with [mention programming language], this project blends logic, fun, and a dash of suspense.
-🔍 Features:
-✅ Randomized number generation for endless gameplay
-✅ Interactive hints to guide your guesses
-✅ Clean, optimized code for an engaging experience
-💭 Got ideas to make it better? Fork it, tweak it, and let’s make this game even more thrilling together! 💻🔥
-Check it out, give it a star ⭐, and let me know what you think! 🚀
+# 🎯 Guess The Number Game
 
-This version adds more excitement and a call to action. Let me know if you want a different tone or more customization! 😃
+A simple and interactive number guessing game built with **HTML**, **CSS**, and **JavaScript**. The player tries to guess a randomly generated number within a limited number of attempts.
+
+## 🚀 Live Demo  
+🔗 [Click here to play the game](https://kirthilakshkarthivelu.neocities.org/project1)
+
+## 🕹️ How It Works
+- The game generates a random number between 1 and 100  
+- The user enters guesses via input field 
+- The game resets with a new number after each round
+
+## 🔧 Features
+- Random number generation  
+- User input validation  
+- Real-time feedback  
+- Clean and responsive UI
+
+## 🛠️ Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript (DOM Manipulation, Math.random)
+
+## 🎯 What I Learned
+- Handling user input and events  
+- Logic implementation with conditionals  
+- Using `Math.random()` and loops  
+- Styling interactive games
+
+## 📬 Contact
+📧 your.email@example.com  
+🌐 [My Portfolio](https://kirthilakshkarthivelu.neocities.org/PORTFOLIO)
+
+## ⭐ Like it?
+Give it a ⭐ or drop your feedback — I'd love to hear it!
