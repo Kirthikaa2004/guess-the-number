@@ -29,7 +29,7 @@ A simple and interactive number guessing game built with **HTML**, **CSS**, and 
 - Styling interactive games
 
 ## 📬 Contact
-📧 your.email@example.com  
+📧 22cs048@drngpit.ac.in 
 🌐 [My Portfolio](https://kirthilakshkarthivelu.neocities.org/PORTFOLIO)
 
 ## ⭐ Like it?
